@@ -33,7 +33,7 @@ A Spring Boot RESTful application for managing bank accounts and transactions, i
 ### Setup
 1. Clone the repository:
    ```bash
-   git clone 
+   git clone https://github.com/kotaven/Banking-Transaction-Management-System.git
 properties
 Copy code
 spring.datasource.url=jdbc:oracle:thin:@localhost:1521:xe
