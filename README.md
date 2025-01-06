@@ -35,14 +35,12 @@ A Spring Boot RESTful application for managing bank accounts and transactions, i
    ```bash
    git clone https://github.com/kotaven/Banking-Transaction-Management-System.git
 properties
-Copy code
 spring.datasource.url=jdbc:oracle:thin:@localhost:1521:xe
 spring.datasource.username=your-username
 spring.datasource.password=your-password
 spring.jpa.hibernate.ddl-auto=update
 Build and run the application:
 bash
-Copy code
 mvn clean install
 mvn spring-boot:run
 API Endpoints
@@ -52,7 +50,7 @@ POST /api/accounts
 Request:
 
 json
-Copy code
+
 {
     "accountHolderName": "John Doe",
     "balance": 10000,
@@ -61,7 +59,7 @@ Copy code
 Response:
 
 json
-Copy code
+
 {
     "accountId": 12345,
     "accountHolderName": "John Doe",
@@ -82,7 +80,7 @@ PUT /api/accounts/{id}
 Request:
 
 json
-Copy code
+
 {
     "accountHolderName": "Jane Doe",
     "balance": 12000,
@@ -100,7 +98,7 @@ POST /api/transactions
 Request:
 
 json
-Copy code
+
 {
     "transactionType": "DEBIT",
     "amount": 500,
@@ -109,7 +107,7 @@ Copy code
 Response:
 
 json
-Copy code
+
 {
     "transactionId": 67890,
     "transactionType": "DEBIT",
