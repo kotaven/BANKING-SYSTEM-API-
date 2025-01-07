@@ -12,11 +12,15 @@ A Spring Boot RESTful application for managing bank accounts and transactions, i
 
 ---
 
-## Technologies Used
-- **Backend**: Spring Boot, Java
-- **Database**: Oracle SQL
-- **API Documentation**: REST APIs
-- **Build Tool**: Maven
+Technologies Used:
+Backend Framework: Spring Boot
+Database: Oracle SQL (Express Edition)
+Persistence: Spring Data JPA, Hibernate ORM
+API Design: RESTful APIs
+Tools & IDE: Spring Tool Suite (STS), Postman (for API testing)
+Build Tool: Maven
+Version Control: GitHub
+
 
 ---
 
