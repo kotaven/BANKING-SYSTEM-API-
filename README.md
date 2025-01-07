@@ -1,6 +1,4 @@
-Banking Transaction Management System
-# Banking Application
-
+BANKING SYSTEM API  
 A Spring Boot RESTful application for managing bank accounts and transactions, including features like account creation, balance updates, and transaction tracking.
 
 ---
